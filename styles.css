@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+}
+.two{
+    padding: 10px;
+    margin: 10px;
+    height: 30px;
+    width: 320px;
+}
+.three{
+    padding: 10px;
+    margin: 10px;
+    height: 30px;
+    width: 10px;
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hackerrank</title>
+</head>
+
+<body>
+
+</body>
+<script>
+    function compareTriplets(a, b) {
+        let aliceScore = 0;
+        let bobScore = 0;
+
+        for (let i = 0; i < 3; i++) {
+            if (a[i] > b[i]) {
+                aliceScore += 1;
+            } else if (a[i] < b[i]) {
+                bobScore += 1;
+            }
+
+        }
+
+        return [aliceScore, bobScore];
+    }
+
+    let a = [17, 28, 30];
+    let b = [99, 16, 8];
+    console.log(compareTriplets(a, b));  
+</script>
+
+</html>
